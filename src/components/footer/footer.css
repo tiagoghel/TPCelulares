@@ -1,15 +1,13 @@
 .pie-pagina {
     background-color: #9d2df8;
     color: black;
-    text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     font-family: 'Segoe UI', sans-serif;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    /* Changed from fixed to static to allow footer to appear after content */
-    position: static;
-    bottom: auto;
-    left: auto;
+    position: fixed;
+    bottom: 0;
     width: 100%;
+    left: 0;
     z-index: 1000;
 }
 

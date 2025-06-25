@@ -1,0 +1,13 @@
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  
+
+}
+.carousel-inner img {
+    max-width: 80vw;
+    max-height: 60vh;
+    object-fit: contain;
+    
+  }
