@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://tiagoghel.github.io/TPCelulares",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -28,6 +29,5 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
-  },
-  "homepage": "https://tiagoghel.github.io/tpcelulares"
+  }
 }

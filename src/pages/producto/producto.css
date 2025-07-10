@@ -1,11 +1,21 @@
 
 .producto-container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: calc(100vh - 120px);
+  margin-left: 660px;
+}
+
+
+.producto-card-detalle {
   background-color: #fff;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
   text-align: center;
 }
 

@@ -21,16 +21,18 @@ const Producto = () => {
 
   return (
     <div className="producto-container">
-      <h1>{celular.nombre}</h1>
-      <h3>Marca: {marca ? marca.nombre : 'Desconocida'}</h3>
-      <div className="producto-fotos">
-        {celular.fotos.map((foto, index) => (
-          <img key={index} src={foto} alt={`${celular.nombre} foto ${index + 1}`} />
-        ))}
+      <div className="producto-card-detalle">
+        <h1>{celular.nombre}</h1>
+        <h3>Marca: {marca ? marca.nombre : 'Desconocida'}</h3>
+        <div className="producto-fotos">
+          {celular.fotos.map((foto, index) => (
+            <img key={index} src={foto} alt={`${celular.nombre} foto ${index + 1}`} />
+          ))}
+        </div>
+        <p>{celular.descripcion}</p>
+        <p className="precio">Precio: ${celular.precio}</p>
+        <Link to="/productos">Volver a productos</Link>
       </div>
-      <p>{celular.descripcion}</p>
-      <p className="precio">Precio: ${celular.precio}</p>
-      <Link to="/productos">Volver a productos</Link>
     </div>
   );
 };
